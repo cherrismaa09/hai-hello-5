@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 const comfortMessages: Record<string, { emoji: string; title: string; message: string }> = {
   miss: {
     emoji: "🤗",
-    title: "When You Miss Me",
-    message: "Close your eyes. Take a deep breath. I'm right there with you — in every heartbeat, every memory, and every quiet moment. Distance is just space; my love for you has no distance at all.",
+    title: "When You Mich Me",
+    message: "Close your eyes. Remember the moments you hugged me. I'm always there with you, in every heartbeat, every memory, and every quiet moment. Distance is just space; my love for you has no distance at all kucchu.",
   },
   sad: {
     emoji: "💛",

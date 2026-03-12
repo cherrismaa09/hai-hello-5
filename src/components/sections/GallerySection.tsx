@@ -3,13 +3,30 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const memories = [
-  { src: "/picture.jpeg", caption: "Our first adventure together" },
-  { src: "/picture2.jpg", caption: "Our first adventure together" },
-  { src: "/picture.jpeg", caption: "That sunset we'll never forget" },
-  { src: "/picture.jpeg", caption: "Laughing until our stomachs hurt" },
-  { src: "/picture.jpeg", caption: "Cozy rainy day cuddles" },
-  { src: "/picture.jpeg", caption: "Celebrating us" },
-  { src: "/picture.jpeg", caption: "A moment of pure happiness" },
+  { src: "pictures/pic0.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic1.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic2.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic3.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic4.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic5.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic6.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic7.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic8.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic9.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic10.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic11.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic12.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic13.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic14.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic15.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic16.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic17.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic18.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic19.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic20.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic21.jpeg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic22.jpg", caption: "Our 4th Anniversary" },
+  
 ];
 
 const MemoryCard = ({ src, caption, delay = 0 }) => {
