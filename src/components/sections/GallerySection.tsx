@@ -4,28 +4,28 @@ import { useState } from "react";
 
 const memories = [
   { src: "pictures/pic0.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic1.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic2.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic3.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic4.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic5.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic6.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic7.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic8.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic9.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic10.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic11.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic12.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic13.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic14.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic15.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic16.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic17.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic18.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic19.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic20.jpg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic21.jpeg", caption: "Our 4th Anniversary" },
-  { src: "pictures/pic22.jpg", caption: "Our 4th Anniversary" },
+  { src: "pictures/pic1.jpg", caption: "14-03-2025" },
+  { src: "pictures/pic2.jpg", caption: "24-04-2025" },
+  { src: "pictures/pic3.jpg", caption: "07-05-2025" },
+  { src: "pictures/pic4.jpg", caption: "13-05-2025" },
+  { src: "pictures/pic5.jpg", caption: "20-05-2025" },
+  { src: "pictures/pic6.jpg", caption: "14-06-2025 Your Birthdayy!" },
+  { src: "pictures/pic7.jpg", caption: "24-06-2025" },
+  { src: "pictures/pic8.jpg", caption: "09-09-2025" },
+  { src: "pictures/pic9.jpg", caption: "25-09-2025" },
+  { src: "pictures/pic10.jpg", caption: "26-09-2025" },
+  { src: "pictures/pic11.jpg", caption: "24-10-2025" },
+  { src: "pictures/pic12.jpg", caption: "06-11-2025" },
+  { src: "pictures/pic13.jpg", caption: "12-11-2025" },
+  { src: "pictures/pic14.jpg", caption: "15-11-2025" },
+  { src: "pictures/pic15.jpg", caption: "03-12-2025" },
+  { src: "pictures/pic16.jpg", caption: "15-12-2025" },
+  { src: "pictures/pic18.jpg", caption: "21-12-2025" },
+  { src: "pictures/pic17.jpg", caption: "26-12-2025" },
+  { src: "pictures/pic20.jpg", caption: "13-01-2026" },
+  { src: "pictures/pic19.jpg", caption: "16-01-2026" },
+  { src: "pictures/pic21.jpeg", caption: "09-03-2025" },
+  { src: "pictures/pic22.jpg", caption: "11-03-2026" },
   
 ];
 
@@ -70,8 +70,8 @@ const MemoryCard = ({ src, caption, delay = 0 }) => {
           />
         </div>
 
-        <div className="p-4">
-          <p className="text-sm text-muted-foreground italic">{caption}</p>
+        <div className="p-2 text-center">
+          <p className="text-sm text-semibold-foreground italic">{caption}</p>
         </div>
       </motion.div>
     </FadeInSection>

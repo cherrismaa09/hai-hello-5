@@ -3,25 +3,29 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const comfortMessages: Record<string, { emoji: string; title: string; message: string }> = {
+
   miss: {
     emoji: "🤗",
     title: "When You Mich Me",
     message: "Close your eyes. Remember the moments you hugged me. I'm always there with you, in every heartbeat, every memory, and every quiet moment. Distance is just space; my love for you has no distance at all kucchu.",
   },
+
   sad: {
     emoji: "💛",
     title: "When You Feel Sad",
-    message: "Hey, it's okay to not be okay. But please remember — you are loved beyond measure. Whatever you're going through, you don't have to go through it alone. I'm here, always. Lean on me.",
+    message: "Cuttieee gaadu sad ga unnapudu kucchii papa smile talchukunte automatic ga happy aithadu boo boo. But please remember — Lubbuuuu chaaaalaaa😘💞. Whatever you're going through, you don't have to go through it alone. I'm with you laali, you always have my shoulder .",
   },
+
   happy: {
     emoji: "✨",
     title: "When You Feel Happy",
-    message: "Your happiness is my favorite thing in the world. I hope this moment lasts forever. You deserve every single beautiful thing life has to offer. Keep smiling — it lights up my entire world.",
+    message: "Your happiness is my favoritesttt thing in the world. I hope this moment lasts forever. You deserve all the happiness, every single beautiful thing in life. Keep smiling ypu light up my entire world boo boo.",
   },
+
   loved: {
     emoji: "❤️",
     title: "When You Want to Feel Loved",
-    message: "You are the most important person in my life. You are cherished, valued, and adored — not for what you do, but for who you are. I love you today, tomorrow, and every day after that.",
+    message: "Remember all the cute cuddles we had. You are the most important person in my life. You are cherished, valued, and adored, not for what you do, but for who you are. I love you today, tomorrow, and every day after that.",
   },
 };
 
